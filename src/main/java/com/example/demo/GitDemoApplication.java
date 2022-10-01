@@ -9,6 +9,7 @@ public class GitDemoApplication {
 	public void m() {
 		System.out.println("test done");
 		System.out.println("1st change");
+		System.out.println("2nd change");
 	}
 	
 	public static void main(String[] args) {
