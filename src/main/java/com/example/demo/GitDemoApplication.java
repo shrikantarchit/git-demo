@@ -13,7 +13,7 @@ public class GitDemoApplication {
 	}
 	
 	public static void main(String[] args) {
-		public String id="userid";
+		public  id="userid";
 		public String password="password";
 		SpringApplication.run(GitDemoApplication.class, args);
 	}
