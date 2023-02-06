@@ -8,7 +8,7 @@ public class HelloWorld{
         String id = "admin"; // hard-coded credential
         String password = "password"; // hard-coded credential
        Boolean check= VerifyAdmin(password);
-        getConn(id,password);
+        //getConn(id,password);
 }
 @GetMapping("/api")
 public static void getConn(String id, String password) throws SQLException {
