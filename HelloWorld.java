@@ -14,7 +14,7 @@ public class HelloWorld{
 public static void getConn(String id, String password) throws SQLException {
     DriverManager.getConnection(id, password); // sensitive call
 }
-  public boolean VerifyAdmin(String password) {
+  public static boolean VerifyAdmin(String password) {
 if (password.equals("68af404b513073584c4b6f22b6c63e6b")) {
 System.out.println("Entering Diagnostic Mode...");
 return true;
