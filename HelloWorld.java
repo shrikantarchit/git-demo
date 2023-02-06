@@ -18,7 +18,7 @@ public static void getConn(String id, String password) throws SQLException {
   JavaCharArray[2] = 'c';  
   JavaCharArray[3] = 'd';  
   JavaCharArray[4] = 'e';  
-    DriverManager.getConnection(id, password,JavaCharArray); // sensitive call
+    DriverManager.getConnection(id, password,password); // sensitive call
 }
   public static boolean VerifyAdmin(String password) {
 if (password.equals("68af404b513073584c4b6f22b6c63e6b")) {
