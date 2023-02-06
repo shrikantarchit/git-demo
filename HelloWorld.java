@@ -10,7 +10,7 @@ public class HelloWorld{
        Boolean check= VerifyAdmin(password);
         //getConn(id,password);
 }
-@GetMapping("/api")
+//@GetMapping("/api")
 public static void getConn(String id, String password) throws SQLException {
   char[] JavaCharArray = new char[5];  
   JavaCharArray[0] = 'a';  
